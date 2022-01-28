@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GoldFinch</title>
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+  <script defer src="./index.js"></script>
+</head>
+
+<body>
+  <div>
+    <div class="flex justify-center logo-sm w-100 flex lg:hidden justiy-center items-center py-6">
+      <img src="./images/GoldFinch Final Logo.svg" width="100" alt="">
+    </div>
+    <div class="small__side_bar hide flex justify-center flex-col" style="
+          border-top-right-radius: 3rem;
+          position: fixed;
+          left: 0;
+          width: 32.375rem;
+          border-bottom-right-radius: 3rem;
+          height: 36.5rem;
+          z-index: 1;
+        ">
+
+      <div class="sidebar-toggle__button "><img src="./images/Arrow.png" class="ml-10" alt=""></div>
+      <div class="my-5">
+        <a href="#about-us" class="my-5 font-medium text-xl" style="color: #363636">
+          <h1>About Us</h1>
+        </a>
+      </div>
+      <div class="my-5">
+        <a href="#our-features" class="my-5 font-medium text-xl" style="color: #363636">
+          <h1>Our Features</h1>
+        </a>
+      </div>
+      <div class="my-5">
+        <a href="#store" class="my-5 font-medium text-xl" style="color: #363636">
+          <h1>GoldFich For Your Store</h1>
+        </a>
+      </div>
+      <div class="my-5">
+        <a href="claimed" class="my-5 font-medium text-xl" style="color: #363636">
+          <h1>Lorem ipsum</h1>
+        </a>
+      </div>
+      <div class="flex flex-col gap-4">
+        <button
+          class="flex flex-row border-2 items-center rounded-lg border-gray-700 py-2 px-4 text-sm mt-4 gap-4 font-semibold">
+          <img src="./images/apple.png" />DOWNLOAD ON IOS
+        </button>
+        <button
+          class="flex flex-row border-2 items-center rounded-lg border-green-400 py-2 px-4 text-sm text-green-400 gap-2 font-normal"
+          style="color: #84B828; border-color:#84B828;">
+          <img src="./images/android (1).png" />DOWNLOAD ON ANDROID
+        </button>
+      </div>
+    </div>
+  </div>
+  <!-- left side -->
+  <div class="grid grid-cols-4">
+
+    <div class="col-span-1 sidenav__container">
+      <div class="flex justify-center side_logo mt-24">
+        <img src="./images/GoldFinch Final Logo.svg" width="130" alt="">
+      </div>
+      <div
+        class="sidebar_lg container flex justify-center flex-col my-auto block bg-gray-200 border rounded-md lg:px-28 lg:py-20  side__nav"
+        style="
+            border-top-right-radius: 3rem;
+            position: fixed;
+            left: 0;
+            width: 32.375rem;
+            border-bottom-right-radius: 3rem;
+            height: 36.5rem;
+            
+          ">
+        <div class="my-5">
+          <a href="#about-us" class="my-5 font-medium text-xl" style="color: #363636">
+            <h1>About Us</h1>
+          </a>
+        </div>
+        <div class="my-5">
+          <a href="#our-features" class="my-5 font-medium text-xl" style="color: #363636">
+            <h1>Our Features</h1>
+          </a>
+        </div>
+        <div class="my-5">
+          <a href="#store" class="my-5 font-medium text-xl" style="color: #363636">
+            <h1>GoldFich For Your Store</h1>
+          </a>
+        </div>
+        <div class="my-5">
+          <a href="#claimed" class="my-5 font-medium text-xl" style="color: #363636">
+            <h1>Lorem ipsum</h1>
+          </a>
+        </div>
+        <div class="flex flex-col gap-4 sidenav_button">
+          <button
+            class="flex flex-row border-2 items-center rounded-lg border-gray-700 py-2 px-4 text-sm mt-4 gap-4 font-semibold">
+            <img src="./images/apple.png" />DOWNLOAD ON IOS
+          </button>
+          <button
+            class="flex flex-row border-2 items-center rounded-lg border-green-400 py-2 px-4 text-sm  gap-2 font-normal"
+            style="color: #84B828; border-color:#84B828;">
+            <img src="./images/android (1).png" />DOWNLOAD ON ANDROID
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- left side end-->
+
+    <!-- right side -->
+    <div class="col-span-4 lg:col-span-3">
+      <img src="./images/Group 10471.jpg" alt="" />
+      <div class="flex flex-col justify-center items-center">
+        <div class="flex flex-col container mt-10 lg:flex-row lg:mt-28 lg:px-16 xl:px-34">
+          <div class="flex-auto w-full px-10 text-center lg:w-64 lg:px-0 lg:text-left xl:w-38 2xl:mt-10" id="about-us">
+            <p class="font-bold text-xl">About Us</p>
+            <hr class="w-16 mb-5 ml-28 md:ml-80 lg:ml-0 border-2 border-green-500" />
+
+            <h1 class="text-4xl font-bold">So what is Goldfinch??</h1>
+            <br />
+            <p style="color: #242424;">
+              It's simple. Download Drench for free on the iOS App Store or
+              Google Play Store.
+            </p>
+            <br />
+            <p style="color: #242424;">
+              Then, when you're out and about, you get 'drenched' with offers
+              and exclusive discounts from restaurants, takeaways, dessert
+              parlours and retailers, based on exactly where you are, using
+              push notifications.
+            </p>
+            <br />
+            <p style="color: #242424;">
+              Each drench offer has a timer on it, so you have to claim the
+              offers before they 'dry up' and disappear forever!
+            </p>
+            <br />
+            <p style="color: #242424;">
+              No more rifling through discount apps on your phone and waiting
+              forever for some email coupon- with Drench all the offers come
+              straight to your phone.
+            </p>
+            <br />
+            <p style="color: #242424;">We made Drench to be instant, fun and surprising.</p>
+          </div>
+
+          <div class="flex-auto w-full px-10 lg:w-64 lg:px-0 lg:mt-20 xl:mt-20 xl:w-96 2xl:mt-0">
+            <img class="mx-auto" src="./images/Group 10361.png" alt="" />
+          </div>
+        </div>
+
+        <!-- cloudy -->
+        <div class="bg-cover w-full h-1/6" style="background-image: url(./images/Asset\ 1.jpg)"></div>
+        <!-- cloudy -->
+
+        <!-- PART 2 -->
+        <div class="flex flex-col container mt-10 lg:flex-row lg:mt-28 lg:px-16 xl:px-34">
+          <div class="flex-auto w-full px-10 text-center lg:w-64 lg:px-0 lg:text-left xl:w-38 2xl:mt-10 mb-40"
+            id="our-features">
+            <p class="font-bold text-xl">Our Feature</p>
+            <hr class="w-16 mb-5 ml-28 md:ml-80 lg:ml-0 border-2 border-green-500" />
+            <h1 class="text-4xl font-bold">Packed Full of Features</h1>
+            <br />
+            <div class="flex flex-row gap-4">
+              <p class="left-bar" style="color: #242424;">
+                Drench is built with a privacy first approach to ensure full
+                GDPR compliance in the UK.
+              </p>
+            </div>
+            <br />
+            <div class="flex flex-row gap-4">
+              <p class="left-bar" style="color: #242424;">
+                Drench works totally in real-time, meaning every drench offer
+                will be valid and redeemable, every time.
+              </p>
+            </div>
+            <br />
+            <div class="flex flex-row gap-4">
+              <p class="left-bar" style="color: #242424;">
+                Being a cloud-based platform, Drench offers are updated on a
+                second-by-second basis for users all over the UK.
+              </p>
+            </div>
+
+            <br />
+            <div class="flex flex-row gap-4">
+              <p class="left-bar" style="color: #242424;">
+                No more rifling through discount apps on your phone and waiting
+                forever for some email coupon- with Drench all the offers come
+                straight to your phone.
+              </p>
+            </div>
+
+            <br />
+            <div class="flex flex-row gap-4">
+              <p class="left-bar" style="color: #242424;">
+                Most discounts on Drench aren't available anywhere else, with
+                savings of up to 50% up for grabs!
+              </p>
+            </div>
+          </div>
+
+          <div class="flex-auto w-full px-10 lg:w-64 lg:px-0 lg:mt-20 xl:mt-20 xl:w-96 2xl:mt-0">
+            <img class="mx-auto h-full" width="100%" src="./images/Group 10371.png" alt="" />
+          </div>
+        </div>
+
+        <div class="bg-cover w-full h-1/6" style="background-image: url(./images/Group\ 10370.jpg)">
+          <div class="flex flex-col px-10 py-10 lg:px-32 lg:py-96 xl:px-16" id="store">
+            <h1 class="text-center text-white text-4xl font-semibold lg:text-left xl:pr-52 py-5">
+              Grab a Goldfinch for your Store
+            </h1>
+            <p class="text-white text-center font-lato mt-10 lg:text-left lg:mt-1 xl:pr-80 " style="color: #FFFFFF">
+              It's simple. Download Drench for free on the iOS App Store or
+              Google Play Store. Then, when you're out and about, you get
+              'drenched' with offers and exclusive discounts from restaurants,
+              takeaways, dessert parlours and retailers, based on exactly
+              where you are, using push notifications. Each drench offer has a
+              timer on it, so you have to claim the offers before they 'dry
+              up' and disappear forever!
+            </p>
+          </div>
+        </div>
+        <br />
+
+        <div class="flex flex-col container mt-10 lg:flex-row lg:mt-28 lg:px-16 xl:px-34">
+          <div class="flex-auto w-full px-10 text-center lg:w-64 lg:px-0 lg:text-left xl:w-38 2xl:mt-10" id="claimed"
+            style="margin: auto 0">
+            <p class="font-bold text-xl">Lorem ipsum</p>
+            <hr class="w-16 mb-5 ml-28 md:ml-80 lg:ml-0 border-2 border-green-500" />
+            <h1 class="text-4xl font-bold">Your Claimed Goldfinch</h1>
+            <br />
+            <p style="color: #242424;">
+              Drench is built with a privacy first approach to ensure full
+              GDPR compliance in the UK.
+            </p>
+            <br />
+            <p style="color: #242424;">
+              Drench works totally in real-time, meaning every drench offer
+              will be valid and redeemable, every time.
+            </p>
+            <br />
+            <p style="color: #242424;">
+              Being a cloud-based platform, Drench offers are updated on a
+              second-by-second basis for users all over the UK.
+            </p>
+            <br />
+            <p style="color: #242424;">
+              No more rifling through discount apps on your phone and waiting
+              forever for some email coupon- with Drench all the offers come
+              straight to your phone.
+            </p>
+            <br />
+            <p style="color: #242424;">
+              Most discounts on Drench aren't available anywhere else, with
+              savings of up to 50% up for grabs!
+            </p>
+          </div>
+
+          <div class="flex-auto w-full px-10 lg:w-64 lg:px-0 lg:mt-20 xl:mt-20 xl:w-96 2xl:mt-0">
+            <img class="mx-auto" width="50%" src="./images/Group 10400.jpg" alt="" />
+          </div>
+        </div>
+
+        <!-- form portion -->
+        <div
+          class="flex container px-12 md:px-36 lg:px-16 flex-col justify-center items-center lg:items-start lg:mt-5 ml-auto">
+          <p class="font-bold text-xl tracking-wider">Become Our Partner</p>
+          <hr class="w-10 mb-5 border-2 border-green-700" />
+          <h1 class="text-3xl font-bold lg:tracking-wider lg:text-4xl">
+            Goldfinch For Your Store
+          </h1>
+
+          <br />
+          <form class="w-full max-w-lg">
+            <div class="flex flex-wrap -mx-3 mb-6">
+              <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+                <label class="block tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
+                  Full Name
+                </label>
+                <input
+                  class="appearance-none block w-full text-gray-700 border-2 border-gray-200 rounded-2xl py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+                  id="grid-first-name" type="text" placeholder="" />
+                <!-- <p class="text-red-500 text-xs italic">Please fill out this field.</p> -->
+              </div>
+              <div class="w-full md:w-1/2 px-3">
+                <label class="block tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-last-name">
+                  Email
+                </label>
+                <input
+                  class="appearance-none block w-full text-gray-700 border-2 border-gray-200 rounded-2xl py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                  id="grid-last-name" type="email" placeholder="" />
+              </div>
+
+              <div class="w-full md:w-1/2 px-3">
+                <label class="block tracking-wide text-gray-700 text-xs font-bold mb-2 " for="grid-last-name ">
+                  Phone
+                </label>
+                <input
+                  class="appearance-none block w-full text-gray-700 border-2 border-gray-200 rounded-2xl py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                  id="grid-last-name" type="#" placeholder="" />
+              </div>
+
+              <div class="w-full md:w-1/2 px-3">
+                <label class="block tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-last-name">
+                  Your Company
+                </label>
+                <input
+                  class="appearance-none block w-full text-gray-700 border-2 border-gray-200 rounded-2xl py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                  id="grid-last-name" type="text" placeholder="" />
+              </div>
+
+              <div class="my-2 px-2 w-full overflow-hidden my-1 px-1">
+                <label class="block tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-last-name">
+                  Your Message (Optional)
+                </label>
+                <textarea placeholder="Type here" rows="8"
+                  class="px-4 py-5 w-full tracking-wider border-2 border-gray-200 rounded-2xl  name=" message"
+                  required></textarea>
+              </div>
+
+              <div class="flex space-x-2 justify-center ml-2">
+                <button type="button"
+                  class="inline-block px-4 py-2 border-2 border-gray-600 text-gray-800 font-semibold text-xs leading-tight uppercase rounded hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out">
+                  Submit
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+        <!-- right side end-->
+      </div>
+    </div>
+  </div>
+
+  <!-- footer -->
+  <div class="bg-cover no-repeat w-full h-30" style="background-image: url(./images/Group\ 10404.jpg)">
+    <div class="flex justify-between items-center">
+      <div>
+        <p class="text-white px-5 lg:px-36 py-12">
+          Copyright 2022.All Right Reserved.Powered By Rapidobots
+        </p>
+      </div>
+      <div class="flex flex-row gap-4 pr-20 lg:px-36">
+        <img src="./images/facebook (2).svg" />
+        <img src="./images/instagram (4).svg" />
+        <img src="./images/twitter (1).svg" />
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
